@@ -51,7 +51,7 @@ if ENV:
         "START_IMG", ""
     )
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "worldwide_friend_zone")
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "TG_FRIENDSS")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     TOKEN = os.environ.get("TOKEN", None)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
@@ -158,7 +158,7 @@ pbot = Client("MukeshRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 aiohttpsession = ClientSession()
 
-print("[INFO]: Getting Bot Info...")
+print("[INFO]: 𝗚𝗘𝗧𝗧𝗜𝗡𝗚 𝗩𝗜𝗣 𝗥𝗢𝗕𝗢𝗧 𝗜𝗡𝗙𝗢...")
 BOT_ID = dispatcher.bot.id
 BOT_NAME = dispatcher.bot.first_name
 BOT_USERNAME = dispatcher.bot.username
